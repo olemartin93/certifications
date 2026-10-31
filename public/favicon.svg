@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- ribbons -->
+  <path d="M196 290 L160 420 L204 398 L230 438 L262 318 Z" fill="#f43f5e"/>
+  <path d="M316 290 L352 420 L308 398 L282 438 L250 318 Z" fill="#e11d48"/>
+  <!-- scalloped rosette -->
+  <g transform="translate(256 220)">
+    <path fill="url(#gold)" d="M0-140 L28-118 L63-125 L78-93 L111-80 L108-45 L131-17 L114 14 L122 49 L91 66 L80 101 L44 102 L18 127 L-14 113 L-47 125 L-66 95 L-100 85 L-104 50 L-129 26 L-114-5 L-121-40 L-91-58 L-80-92 L-45-95 L-18-122 Z"/>
+    <circle r="92" fill="#ffffff"/>
+    <path d="M-44 2 L-12 34 L48 -30" fill="none" stroke="#4f46e5" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
